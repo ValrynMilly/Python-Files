@@ -1,0 +1,21 @@
+Q1) SELECT COUNT(*) FROM city WHERE CountryCode = 'USA';
+Q2) SELECT Population FROM country WHERE Code = 'ARG';
+    SELECT LifeExpectancy FROM country WHERE Code = 'ARG';
+Q3) SELECT * FROM country ORDER BY LifeExpectancy DESC LIMIT 1;
+Q4) SELECT city.name FROM country LEFT JOIN city ON country.capital = city.id WHERE country.code = 'ESP';
+Q5) SELECT Langauge FROM countrylanguage LEFT JOIN country WHERE country.region = 'Southeast Asia';
+Q6)
+Q7)
+Q8)
+Q9)
+Q10)
+Q11)
+Q12)
+Q13)
+Q14)
+Q15)
+Q16)
+Q17)
+Q18)
+Q19)
+Q20)
